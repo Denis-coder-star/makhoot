@@ -1,0 +1,332 @@
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 968px !important;
+		padding: 0 15px;
+	}
+	.title h1 {
+		font-size: 42px !important;
+	}
+	.reviews-text p {
+		width: 280px !important;
+	}
+	.reviews-block {
+		min-height: 0;
+		height: 380px;
+	}
+	.reviews-user img {
+		width: 50px;
+		height: 50px;
+	}
+	.reviews-name {
+		margin-left: 12px !important;
+	}
+	.flex {
+		padding: 0 !important;
+	}
+	.pictures-block:last-child {
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px !important;
+	}
+	.heading {
+		display: block !important;
+		text-align: center;
+	}
+	.menu {
+		justify-content: center;
+		margin-top: 30px;
+	}
+	.header-btn {
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.title h1 {
+		font-size: 36px !important;
+	}
+	.slick-slide img {
+		width: 45% !important;
+	}
+	.advant {
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.advant:first-child {
+		margin-top: 0;
+	}
+	.left,
+	.right {
+		display: none;
+	}
+	.title p {
+		width: 370px !important;
+	}
+	.header {
+		padding-bottom: 140px !important;
+	}
+	.flex {
+		margin-top: 80px !important;
+	}
+	.brands,
+	.advantages-section {
+		padding-bottom: 120px !important;
+	}
+	.advantages-section {
+		padding-top: 120px !important;
+	}
+	.reviews-user img {
+		width: 60px !important;
+		height: 60px !important;
+	}
+	.reviews-text p {
+		width: 90% !important;
+	}
+	.reviews-block {
+		height: 300px !important;
+	}
+	.select {
+		border-right: 1px solid #d0cece;
+		width: 20% !important;
+	}
+	.button-poisk {
+		width: 100% !important;
+	}
+	.input {
+		width: 80% !important;
+	}
+	h2 {
+		font-size: 30px !important;
+	}
+	.advantages-wrapper {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 80px;
+	}
+	.advantages2 {
+		margin-top: 0 !important;
+	}
+	.tabl-block {
+		width: 300px !important;
+		border: 1px solid #d0cece;
+	}
+	.tabl-block:nth-child(3),
+	.tabl-block:last-child {
+		margin-top: 50px;
+	}
+	.tabl-wrapper {
+		border: 0;
+		margin-top: 50px;
+	}
+	.gift-wrapper {
+		width: 690px;
+	}
+	.gift-btn {
+		width: 100%;
+	}
+	.gift-wrapper p {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px !important;
+	}
+	.flex img {
+		display: none;
+	}
+	.title {
+		text-align: center;
+	}
+	.title h1,
+	.title p,
+	.offer-btn {
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.title h1 {
+		margin-top: 0;
+	}
+	.flex {
+		display: block !important;
+	}
+	.pictures-block {
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.pictures-block:first-child {
+		margin-top: 0;
+	}
+	.tabl-block {
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.tabl-block:first-child {
+		margin-top: 0;
+	}
+	.advantages-wrapper {
+		display: block !important;
+	}
+	.advantages2 {
+		margin-top: 50px !important;
+	}
+	.input,
+	.select {
+		width: 100% !important;
+	}
+	.select {
+		border: 1px solid #d0cece;
+	}
+	.gift-wrapper {
+		width: 100% !important;
+	}
+	.footer-body {
+		display: block !important;
+		text-align: center;
+	}
+	.footer-menu {
+		margin-top: 50px;
+	}
+	.heading {
+		display: flex !important;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.header-btn {
+		margin-top: 0 !important;
+	}
+	.menu__link:after,
+	.menu {
+  		display: none;
+	}
+	.burger-menu {
+		display: block !important;
+	}
+	.menu-back {
+		top: -100%;
+		transition: 0.5s linear;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.container {
+		width: 90% !important;
+	}
+	h2 {
+		font-size: 22px !important;
+		line-height: 1.3em;
+	}
+	.pictures-block img {
+		width: 90% !important;
+	}
+	.rate-button {
+		display: block !important; 
+	}
+	.rate-btn2 {
+		margin-top: 15px;
+	}
+	.reviews-block {
+		border: 0;
+		height: auto !important;
+		padding: 20px 0px 30px 10px;
+		margin: 0px !important;
+	}
+	.reviews-header,
+	.reviews-user {
+		display: block !important;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.reviews-name {
+		margin-left: 0 !important;
+		margin-top: 10px;
+	}
+	.reviews-user img {
+		display: block;
+		margin: 0 auto;
+		width: 50px !important;
+		height: 50px !important;
+	}
+	.reviews-stars {
+		width: 96px !important;
+		height: 18px !important;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	.reviews-text p {
+		font-size: 12px !important;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.reviews-data p {
+		bottom: 10px !important;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.reviews-body .slick-dots li button:before,
+	.slider-header .slick-dots li button:before {
+		width: 16px !important;
+		height: 16px !important;
+	}
+	.reviews-body .slick-dots {
+		bottom: -45px !important;
+	}
+	.reviews-block {
+		height: 412px !important;
+	}
+	.title p {
+		width: 100% !important;
+		font-size: 15px !important;
+	}
+	.title h1 {
+		line-height: 1.3em;
+	}
+	.heading {
+		display: block !important;
+	}
+	.header-btn {
+		margin-top: 30px !important;
+	}
+	.advant p {
+		width: 100% !important;
+	}
+	.gift,
+	.advantages-section,
+	.brands {
+		padding: 80px 0 !important; 
+	}
+	.reviews  {
+		padding-top: 80px !important;
+	}
+	.reviews-body {
+		margin-top: 50px !important;
+	}
+	.header {
+		padding-bottom: 80px !important;
+	}
+	.slider-header .slick-dots {
+		bottom: -55px !important;
+	}
+	.flex {
+		margin-top: 40px !important;
+	}
+	.footer {
+		padding: 50px 0 !important;
+	}
+	.burger-menu {
+		position: absolute !important;
+		top: 5% !important;
+		right: 5% !important;
+	}
+	.rate-btn {
+		margin: 0 auto;
+	}
+	.rate-btn2 {
+		margin-top: 20px;
+	}
+}

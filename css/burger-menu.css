@@ -1,0 +1,87 @@
+.ham3 .top {
+  stroke-dasharray: 40 130;
+}
+.ham3 .middle {
+  stroke-dasharray: 40 140;
+}
+.ham3 .bottom {
+  stroke-dasharray: 40 205;
+}
+.ham3.active .top {
+  stroke-dasharray: 75 130;
+  stroke-dashoffset: -63px;
+}
+.ham3.active .middle {
+  stroke-dashoffset: -102px;
+}
+.ham3.active .bottom {
+  stroke-dasharray: 110 205;
+  stroke-dashoffset: -86px;
+}
+
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:white;
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+
+.burger-menu {
+  z-index: 200;
+  display: none;
+}
+
+.menu-back-active {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(12, 106, 194, 0.8);
+  left: 0;
+  top: 0%;
+  z-index: 10;
+}
+
+.menu-active {
+  display: block !important;
+  position: absolute;
+  text-align: center !important;
+  margin-top: 0;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: 100%;
+}
+
+.menu__item-active {
+  margin-right: 0 !important;
+}
+
+.menu__link-active {
+  font-size: 26px !important;
+  width: 100%;
+  transition: 0.3s linear;
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+}
+
+.menu__link-active:hover {
+  background-color: rgba(17, 132, 240, 0.5);
+}
+
